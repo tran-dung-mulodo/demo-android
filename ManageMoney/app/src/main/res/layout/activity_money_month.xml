@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_gravity="center_horizontal|top">
+
+            <EditText
+                style="@style/TestEdit"
+                android:hint="Username"
+                android:id="@+id/am_username"
+                android:inputType="text" />
+            <EditText
+                style="@style/TestEdit"
+                android:hint="Password"
+                android:id="@+id/am_password"
+                android:inputType="textPassword" />
+
+            <EditText
+                style="@style/TestEdit"
+                android:hint="Password (Confirm)"
+                android:id="@+id/am_repassword"
+                android:inputType="textPassword" />
+            <EditText
+                style="@style/TestEdit"
+                android:hint="Email"
+                android:id="@+id/am_email"
+                android:inputType="textEmailAddress" />
+            <Button
+                android:background="@drawable/button_style"
+                android:id="@+id/am_createbtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                style="@style/Button" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

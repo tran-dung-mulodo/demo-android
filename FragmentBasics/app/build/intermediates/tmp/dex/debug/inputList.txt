@@ -1,0 +1,2 @@
+/Users/nguyenhuyvu/AndroidStudioProjects/FragmentBasics/app/build/intermediates/classes/debug
+/Users/nguyenhuyvu/AndroidStudioProjects/FragmentBasics/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-2af271c11262c1e5414d52f1ad2881567e47b97b.jar
